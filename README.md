@@ -5,10 +5,10 @@
 因此，本项目使用书签栏工具，在一定程度上保证了浏览器的可用性。
 
 ### 原来的交互
-![image](http://wx1.sinaimg.cn/large/006C73MUgy1fh4a9ymsdgj30lq0jedge.jpg)
+![image](./imgs/sp170701_124333.png)
 
 ### 现在的交互
-![image](http://wx1.sinaimg.cn/large/006C73MUgy1fh4aa9z736j31gl0rcq5n.jpg)
+![image](./imgs/sp170701_124136.png)
 
 ### 优点与缺点
 优点包括可以导出csv,可以进行可视化，可以简单排序，可以进行简单检索。
