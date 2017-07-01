@@ -1,0 +1,27 @@
+/*editor error animate*/
+/*@import "~toastr/build/toastr.min.css";*/
+
+#card-datatable{
+	margin-top: 10px;
+    @import "./bootstrap-sass/bootstrap";
+	@import "../../node_modules/react-bootstrap-table/css/react-bootstrap-table.css";
+    
+    .table-header-wrapper > table{
+        margin-bottom: 0px;
+    }
+    ul.react-bootstrap-table-page-btns-ul{
+        margin-top: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .react-bs-table-pagination > div.row{
+        margin-top: 0px;
+    }
+
+	.react-bs-table-tool-bar {
+		margin-bottom: 0px;
+	}
+    .react-bs-container-body > table{
+        margin-bottom:0px;
+    }
+}

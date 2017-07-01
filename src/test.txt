@@ -1,0 +1,226 @@
+<div id="trjnsDivPager">
+    <table class="table_show" cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="20%" />
+            <col width="25%" />
+            <col width="25%" />
+            <col width="15%" />
+            
+            <col width="15%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>
+                    交易时间
+                </th>
+                <th>
+                    商户名称
+                </th>
+                <th>
+                    交易名称
+                </th>
+                <th>
+                    交易金额
+                </th>
+                
+                <th>
+                    卡余额
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td colspan="5">
+                        历史流水查询：开始时间 2017-06-01 结束时间 2017-06-21 总记录数为：23
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/20 11:35:15
+                    </td>
+                    <td>
+                        学一食堂山东风味
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-24</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">83.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/20 11:35:15
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        补助流水
+                    </td>
+                    <td>
+                        <span class="red">100</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">107.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/20 11:33:42
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        支付宝转帐
+                    </td>
+                    <td>
+                        <span class="red">100</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">7.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/17 15:27:24
+                    </td>
+                    <td>
+                        新学五米粉
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-12</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">7.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/15 20:52:28
+                    </td>
+                    <td>
+                        学一食堂山东风味
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-8</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">19.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/14 12:31:57
+                    </td>
+                    <td>
+                        新学五西餐
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-6</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">27.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/12 20:54:44
+                    </td>
+                    <td>
+                        新学五西餐
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-6</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">33.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/9 11:52:25
+                    </td>
+                    <td>
+                        学一食堂山东风味
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-3.5</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">39.74</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/9 11:51:30
+                    </td>
+                    <td>
+                        学一食堂山东风味
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-0.2</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">43.24</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2017/6/9 11:51:19
+                    </td>
+                    <td>
+                        学一食堂山东风味
+                    </td>
+                    <td>
+                        持卡人消费
+                    </td>
+                    <td>
+                        <span class="red">-30</span>
+                    </td>
+                    
+                    <td>
+                        <span class="blue">43.44</span>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <div class="pagenav" style="float: left; padding-left: 50px;">
+        
+<!--MvcPager 1.5 for ASP.NET MVC 3.0 © 2009-2011 Webdiyer (http://www.webdiyer.com)-->
+<div><a disabled="disabled">首页</a>&nbsp;&nbsp;<a disabled="disabled">上一页</a>&nbsp;&nbsp;1&nbsp;&nbsp;<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#trjnsDivPager" href="/CardManage/CardInfo/TrjnList?beginTime=2017-06-01&amp;endTime=2017-06-21&amp;type=1&amp;_=1498130703844&amp;pageindex=2">2</a>&nbsp;&nbsp;<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#trjnsDivPager" href="/CardManage/CardInfo/TrjnList?beginTime=2017-06-01&amp;endTime=2017-06-21&amp;type=1&amp;_=1498130703844&amp;pageindex=3">3</a>&nbsp;&nbsp;<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#trjnsDivPager" href="/CardManage/CardInfo/TrjnList?beginTime=2017-06-01&amp;endTime=2017-06-21&amp;type=1&amp;_=1498130703844&amp;pageindex=2">下一页</a>&nbsp;&nbsp;<a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#trjnsDivPager" href="/CardManage/CardInfo/TrjnList?beginTime=2017-06-01&amp;endTime=2017-06-21&amp;type=1&amp;_=1498130703844&amp;pageindex=3">尾页</a></div>
+<!--MvcPager 1.5 for ASP.NET MVC 3.0 © 2009-2011 Webdiyer (http://www.webdiyer.com)-->
+
+    </div>
+</div>
